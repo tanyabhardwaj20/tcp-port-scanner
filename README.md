@@ -17,7 +17,7 @@ Clone the Repository
 sh
 Copy
 Edit
-git clone https://github.com/yourusername/tcp-port-scanner.git
+git clone https://github.com/tanyabhardwaj20/tcp-port-scanner.git
 cd tcp-port-scanner
 Run the Script
 sh
