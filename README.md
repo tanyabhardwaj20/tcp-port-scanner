@@ -1,23 +1,26 @@
-# TCP Port Scanner 🔍
+# 🔍 TCP Port Scanner Tool 
 
-A multi-threaded TCP Port Scanner built in Python with both CLI and GUI support.
+A powerful, fast, and user-friendly **multi-threaded TCP Port Scanner** built in Python, featuring both a Command-Line (CLI) and a Graphical User Interface (GUI). Ideal for network security testing and ethical hacking tasks. 
 
 ## 🚀 Features
 
-- Fast multithreaded scanning
-- Export results to JSON, CSV, and PDF
-- Simple GUI with Tkinter
-- MIT Licensed
+- ⚡ Fast multithreaded scanning
+- 🖥️ Dual Mode: CLI + GUI (Tkinter)
+- 📊 Export scan results in **JSON**, **CSV**, and **PDF** formats
+- 📁 Organized project structure with clear documentation  
+- ✅ Lightweight and beginner-friendly  
+- 🔒 MIT Licensed  
 
 ## 📦 Requirements
 
-- Python 3.x
-- tqdm
-- fpdf
+- Python 3.8 or higher  
+- [tqdm](https://pypi.org/project/tqdm/)  
+- [fpdf](https://pypi.org/project/fpdf/)  
 
+
+Install all dependencies:
 ```bash
 pip install -r requirements.txt
-```
 
 ## 🔧 Usage (CLI)
 
@@ -25,16 +28,36 @@ pip install -r requirements.txt
 python scanner.py
 ```
 
-## 🖥️ Usage (GUI)
+🔧 Usage
 
 ```bash
+python scanner.py
+
+✅ GUI Mode:
+bash
 python scanner_gui.py
-```
+
+📂 Output Formats
+Terminal display of open ports
+
+Optional:
+
+Export as .json
+
+Export as .csv
+
+Export as .pdf
+
 
 ## 📄 License
 
-MIT License © 2025 [Tanya Bhardwaj](https://github.com/tanyabhardwaj20)
+This project is licensed under the MIT License.
+© 2025 Tanya Bhardwaj (https://github.com/tanyabhardwaj20)
 
-## 🔗 GitHub
+Project Links
+💻 Live Repository: github.com/tanyabhardwaj20/tcp-port-scanner
 
-[🔗 Project Repository](https://github.com/tanyabhardwaj20/tcp-port-scanner)
+🙋‍♀️ Author
+Tanya Bhardwaj
+Ethical Hacker | Python Developer | Cybersecurity Enthusiast
+📫 tanyabhardwaj787@gmail.com
